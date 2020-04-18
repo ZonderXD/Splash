@@ -426,6 +426,17 @@ async def coin( ctx ):
         await ctx.send(embed = discord.Embed(description= f''':thumbsdown:  { ctx.message.author.name }, проиграл! 
             Тебе не повезло у тебя: ``{ coins_r }``''', color = 0x0c0c0c))
 
+@bot.command()
+@commands.check(is_owner)
+async def servers(ctx):
+    description = ' '
+    counter = 0
+    for guild in bot.guilds:
+        counter += 1
+        description += f'{counter}) **`{guild.name}`** - **`{len(guild.members)}`** участников. ID: **`{guild.id}`** \n'
+
+    await ctx.send(embed = discord.Embed(title = 'Сервера, на которых я нахожусь', description = description, color = 0x00ffff))
+
 # Token Bot XD
 token = os.environ.get("Token")
 bot.run(str(token))
