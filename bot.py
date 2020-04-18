@@ -53,7 +53,7 @@ async def on_message(message):
 		embed.set_image(url = 'https://cdn.discordapp.com/attachments/691953915196997689/700718076886515752/2020-04-17_16-10-15.png')
 
 		await message.channel.send(embed = embed)
-		await message.channel.send(file=discord.File(fp = 'C:/Users/User/Desktop/Windows/Bots/Splash Bot/Scripts/Break_In_GUI.txt'))
+		await message.channel.send(file=discord.File(fp = 'Scripts/Break_In_GUI.txt'))
 		return
 
 	if '.скрипт 1' in message.content:
@@ -62,7 +62,7 @@ async def on_message(message):
 		embed.set_image(url = 'https://cdn.discordapp.com/attachments/691953915196997689/700718076886515752/2020-04-17_16-10-15.png')
 		
 		await message.channel.send(embed = embed)
-		await message.channel.send(file=discord.File(fp = 'C:/Users/User/Desktop/Windows/Bots/Splash Bot/Scripts/Break_In_GUI.txt'))
+		await message.channel.send(file=discord.File(fp = 'Scripts/Break_In_GUI.txt'))
 		return
 
 	if 'Blade Throwing Simulator' in message.content:
@@ -71,7 +71,7 @@ async def on_message(message):
 		embed.set_image(url = 'https://cdn.discordapp.com/attachments/691953915196997689/700723653297438730/2020-04-17_17-05-10.png')
 
 		await message.channel.send(embed = embed)
-		await message.channel.send(file=discord.File(fp = 'C:/Users/User/Desktop/Windows/Bots/Splash Bot/Scripts/Blade Throwing Simulator.txt'))
+		await message.channel.send(file=discord.File(fp = 'Scripts/Blade Throwing Simulator.txt'))
 		return
 
 	if '.скрипт 3' in message.content:
@@ -80,7 +80,7 @@ async def on_message(message):
 		embed.set_image(url = 'https://cdn.discordapp.com/attachments/691953915196997689/700723653297438730/2020-04-17_17-05-10.png')
 
 		await message.channel.send(embed = embed)
-		await message.channel.send(file=discord.File(fp = 'C:/Users/User/Desktop/Windows/Bots/Splash Bot/Scripts/Blade Throwing Simulator.txt'))
+		await message.channel.send(file=discord.File(fp = 'Scripts/Blade Throwing Simulator.txt'))
 		return
 
 	if 'Bubble Gum Simulator' in message.content:
@@ -89,7 +89,7 @@ async def on_message(message):
 		embed.set_image(url = 'https://cdn.discordapp.com/attachments/691953915196997689/700723726639038474/2020-04-17_16-58-09.png')
 
 		await message.channel.send(embed = embed)
-		await message.channel.send(file=discord.File(fp = 'C:/Users/User/Desktop/Windows/Bots/Splash Bot/Scripts/Bubble Gum Simulator.txt'))
+		await message.channel.send(file=discord.File(fp = 'Scripts/Bubble Gum Simulator.txt'))
 		return
 
 	if '.скрипт 2' in message.content:
@@ -98,7 +98,7 @@ async def on_message(message):
 		embed.set_image(url = 'https://cdn.discordapp.com/attachments/691953915196997689/700723726639038474/2020-04-17_16-58-09.png')
 
 		await message.channel.send(embed = embed)
-		await message.channel.send(file=discord.File(fp = 'C:/Users/User/Desktop/Windows/Bots/Splash Bot/Scripts/Bubble Gum Simulator.txt'))
+		await message.channel.send(file=discord.File(fp = 'Scripts/Bubble Gum Simulator.txt'))
 		return
 
 	if 'Boss Fighting Simulator' in message.content:
@@ -107,7 +107,7 @@ async def on_message(message):
 		embed.set_image(url = 'https://cdn.discordapp.com/attachments/691953915196997689/700723682070233118/2020-04-17_16-38-19.png')
 
 		await message.channel.send(embed = embed)
-		await message.channel.send(file=discord.File(fp = 'C:/Users/User/Desktop/Windows/Bots/Splash Bot/Scripts/Boss Fighting Simulator.txt'))
+		await message.channel.send(file=discord.File(fp = 'Scripts/Boss Fighting Simulator.txt'))
 		return
 
 	if '.скрипт 4' in message.content:
@@ -116,7 +116,7 @@ async def on_message(message):
 		embed.set_image(url = 'https://cdn.discordapp.com/attachments/691953915196997689/700723682070233118/2020-04-17_16-38-19.png')
 
 		await message.channel.send(embed = embed)
-		await message.channel.send(file=discord.File(fp = 'C:/Users/User/Desktop/Windows/Bots/Splash Bot/Scripts/Boss Fighting Simulator.txt'))
+		await message.channel.send(file=discord.File(fp = 'Scripts/Boss Fighting Simulator.txt'))
 		return
 
 	if 'EggHunt 2020' in message.content:
@@ -125,7 +125,7 @@ async def on_message(message):
 		embed.set_image(url = 'https://cdn.discordapp.com/attachments/691953915196997689/700724167590412388/2020-04-17_16-33-15.png')
 
 		await message.channel.send(embed = embed)
-		await message.channel.send(file=discord.File(fp = 'C:/Users/User/Desktop/Windows/Bots/Splash Bot/Scripts/EggHunt2020.txt'))
+		await message.channel.send(file=discord.File(fp = 'Scripts/EggHunt2020.txt'))
 		return
 
 	if '.скрипт 5' in message.content:
@@ -134,7 +134,7 @@ async def on_message(message):
 		embed.set_image(url = 'https://cdn.discordapp.com/attachments/691953915196997689/700724167590412388/2020-04-17_16-33-15.png')
 
 		await message.channel.send(embed = embed)
-		await message.channel.send(file=discord.File(fp = 'C:/Users/User/Desktop/Windows/Bots/Splash Bot/Scripts/EggHunt2020.txt'))
+		await message.channel.send(file=discord.File(fp = 'Scripts/EggHunt2020.txt'))
 		return
 
 	if 'Ghost Simulator' in message.content:
@@ -143,7 +143,7 @@ async def on_message(message):
 		embed.set_image(url = 'https://cdn.discordapp.com/attachments/691953915196997689/700728205157597325/2020-04-17_16-36-54.png')
 
 		await message.channel.send(embed = embed)
-		await message.channel.send(file=discord.File(fp = 'C:/Users/User/Desktop/Windows/Bots/Splash Bot/Scripts/Ghost Simulator.txt'))
+		await message.channel.send(file=discord.File(fp = 'Scripts/Ghost Simulator.txt'))
 		return
 
 	if '.скрипт 6' in message.content:
@@ -152,7 +152,7 @@ async def on_message(message):
 		embed.set_image(url = 'https://cdn.discordapp.com/attachments/691953915196997689/700728205157597325/2020-04-17_16-36-54.png')
 
 		await message.channel.send(embed = embed)
-		await message.channel.send(file=discord.File(fp = 'C:/Users/User/Desktop/Windows/Bots/Splash Bot/Scripts/Ghost Simulator.txt'))
+		await message.channel.send(file=discord.File(fp = 'Scripts/Ghost Simulator.txt'))
 		return
 
 	if 'Hide and Seek Extreme' in message.content:
@@ -161,7 +161,7 @@ async def on_message(message):
 		embed.set_image(url = 'https://cdn.discordapp.com/attachments/691953915196997689/700728230239404142/2020-04-17_16-48-42.png')
 
 		await message.channel.send(embed = embed)
-		await message.channel.send(file=discord.File(fp = 'C:/Users/User/Desktop/Windows/Bots/Splash Bot/Scripts/Hide and Seek Extreme.txt'))
+		await message.channel.send(file=discord.File(fp = 'Scripts/Hide and Seek Extreme.txt'))
 		return
 
 	if '.скрипт 7' in message.content:
@@ -170,7 +170,7 @@ async def on_message(message):
 		embed.set_image(url = 'https://cdn.discordapp.com/attachments/691953915196997689/700728230239404142/2020-04-17_16-48-42.png')
 
 		await message.channel.send(embed = embed)
-		await message.channel.send(file=discord.File(fp = 'C:/Users/User/Desktop/Windows/Bots/Splash Bot/Scripts/Hide and Seek Extreme.txt'))
+		await message.channel.send(file=discord.File(fp = 'Scripts/Hide and Seek Extreme.txt'))
 		return
 
 	if 'Hole Simulator' in message.content:
@@ -179,7 +179,7 @@ async def on_message(message):
 		embed.set_image(url = 'https://cdn.discordapp.com/attachments/691953915196997689/700728329183166534/2020-04-17_16-18-50.png')
 
 		await message.channel.send(embed = embed)
-		await message.channel.send(file=discord.File(fp = 'C:/Users/User/Desktop/Windows/Bots/Splash Bot/Scripts/Hole Simulator.txt'))
+		await message.channel.send(file=discord.File(fp = 'Scripts/Hole Simulator.txt'))
 		return
 
 	if '.скрипт 8' in message.content:
@@ -188,7 +188,7 @@ async def on_message(message):
 		embed.set_image(url = 'https://cdn.discordapp.com/attachments/691953915196997689/700728329183166534/2020-04-17_16-18-50.png')
 
 		await message.channel.send(embed = embed)
-		await message.channel.send(file=discord.File(fp = 'C:/Users/User/Desktop/Windows/Bots/Splash Bot/Scripts/Hole Simulator.txt'))
+		await message.channel.send(file=discord.File(fp = 'Scripts/Hole Simulator.txt'))
 		return
 
 	if 'Mad City' in message.content:
@@ -197,7 +197,7 @@ async def on_message(message):
 		embed.set_image(url = 'https://cdn.discordapp.com/attachments/691953915196997689/700728329363259472/2020-04-17_17-13-14.png')
 
 		await message.channel.send(embed = embed)
-		await message.channel.send(file=discord.File(fp = 'C:/Users/User/Desktop/Windows/Bots/Splash Bot/Scripts/Mad Lads V7.txt'))
+		await message.channel.send(file=discord.File(fp = 'Scripts/Mad Lads V7.txt'))
 		return
 
 	if '.скрипт 9' in message.content:
@@ -206,7 +206,7 @@ async def on_message(message):
 		embed.set_image(url = 'https://cdn.discordapp.com/attachments/691953915196997689/700728329363259472/2020-04-17_17-13-14.png')
 
 		await message.channel.send(embed = embed)
-		await message.channel.send(file=discord.File(fp = 'C:/Users/User/Desktop/Windows/Bots/Splash Bot/Scripts/Mad Lads V7.txt'))
+		await message.channel.send(file=discord.File(fp = 'Scripts/Mad Lads V7.txt'))
 		return
 
 	if 'Soda Simulator' in message.content:
@@ -215,7 +215,7 @@ async def on_message(message):
 		embed.set_image(url = 'https://cdn.discordapp.com/attachments/691953915196997689/700728334962917497/2020-04-17_16-26-47.png')
 
 		await message.channel.send(embed = embed)
-		await message.channel.send(file=discord.File(fp = 'C:/Users/User/Desktop/Windows/Bots/Splash Bot/Scripts/Soda Simulator.txt'))
+		await message.channel.send(file=discord.File(fp = 'Scripts/Soda Simulator.txt'))
 		return
 
 	if '.скрипт 10' in message.content:
@@ -224,7 +224,7 @@ async def on_message(message):
 		embed.set_image(url = 'https://cdn.discordapp.com/attachments/691953915196997689/700728334962917497/2020-04-17_16-26-47.png')
 
 		await message.channel.send(embed = embed)
-		await message.channel.send(file=discord.File(fp = 'C:/Users/User/Desktop/Windows/Bots/Splash Bot/Scripts/Soda Simulator.txt'))
+		await message.channel.send(file=discord.File(fp = 'Scripts/Soda Simulator.txt'))
 		return
 
 	if 'Restaurant Tycoon 2' in message.content:
@@ -233,7 +233,7 @@ async def on_message(message):
 		embed.set_image(url = 'https://cdn.discordapp.com/attachments/691953915196997689/701029586422595594/2020-04-18_01-04-32.png')
 
 		await message.channel.send(embed = embed)
-		await message.channel.send(file=discord.File(fp = 'C:/Users/User/Desktop/Windows/Bots/Splash Bot/Scripts/Restaurant Tycoon 2.txt'))
+		await message.channel.send(file=discord.File(fp = 'Scripts/Restaurant Tycoon 2.txt'))
 		return
 	
 	ctx = message.content
