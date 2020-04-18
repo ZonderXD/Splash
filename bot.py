@@ -8,7 +8,7 @@ import os
 from discord.ext import commands
 from discord.utils import get
 
-bot = commands.Bot(command_prefix='<')
+bot = commands.Bot(command_prefix='.')
 bot.remove_command('help')
 
 @bot.event
@@ -30,20 +30,20 @@ async def is_owner(ctx):
 async def on_message(message):
 	await bot.process_commands(message)
 	
-	if '<скрипты 1' in message.content.lower():
+	if '.скрипты 1' in message.content.lower():
 		await message.channel.send(embed = discord.Embed(description = f'**Страница 1:\n\n `(1)` - Break In\n `(2)` - Bubble Gum Simulator\n `(3)` - Blade Throwing Simulator\n `(4)` - Boss Fighting Simulator\n `(5)` - EggHunt 2020\n `(6)` - Ghost Simulator\n `(7)` - Hide and Seek Extreme\n `(8)` - Hole Simulator\n `(9)` - Mad City\n `(10)` - Soda Simulator**', color=0xbb1d))
 		return
 
-	if '<скрипты 2' in message.content.lower():
+	if '.скрипты 2' in message.content.lower():
 		await message.channel.send(embed = discord.Embed(description = f'**Страница 2:\n\n `(11)` - Restaurant Tycoon 2\n `(12)` - \n `(13)` - **', color=0xbb1d))
 		return
 
-	if '<скрипты 3' in message.content.lower():
+	if '.скрипты 3' in message.content.lower():
 		await message.channel.send(embed = discord.Embed(description = f'**Coming Soon**', color=0xbb1d))
 		return
 
-	if '<скрипты' in message.content.lower():
-		await message.channel.send(embed = discord.Embed(description = f'**Скрипты:\n\n `<скрипты 1` - Страница 1\n `<скрипты 2` - Страница 2\n `<скрипты 3` - Страница 3**', color=0xbb1d))
+	if '.скрипты' in message.content.lower():
+		await message.channel.send(embed = discord.Embed(description = f'**Скрипты:\n\n `.скрипты 1` - Страница 1\n `.скрипты 2` - Страница 2\n `.скрипты 3` - Страница 3**', color=0xbb1d))
 		await message.channel.send(embed = discord.Embed(description = f'**F.A.Q**\n\n```Наш сервер не несёт ответственность если Вам выдадут бан. Этот бот создан только для скриптов и развличения. Если вы будете писать к примеру: <Jail Break, то Вам выдадут пред. Спасибо за внимание!```\n ```Что бы узнать скрипт введите название игры или напишите например: <скрипт 1```\n ```По 1 причине Вы не сможете использовать команду: <скрипт 11, так как она не работает```', color=0xbb1d))
 		return
 
@@ -56,7 +56,7 @@ async def on_message(message):
 		await message.channel.send(file=discord.File(fp = 'C:/Users/User/Desktop/Windows/Bots/Splash Bot/Scripts/Break_In_GUI.txt'))
 		return
 
-	if '<скрипт 1' in message.content:
+	if '.скрипт 1' in message.content:
 		embed = discord.Embed(description = f'**Скрипт на игру __Break In__\n\n\n\n :point_down:Картинка GUI:point_down:**', color=0xbb1d)
         
 		embed.set_image(url = 'https://cdn.discordapp.com/attachments/691953915196997689/700718076886515752/2020-04-17_16-10-15.png')
@@ -74,7 +74,7 @@ async def on_message(message):
 		await message.channel.send(file=discord.File(fp = 'C:/Users/User/Desktop/Windows/Bots/Splash Bot/Scripts/Blade Throwing Simulator.txt'))
 		return
 
-	if '<скрипт 3' in message.content:
+	if '.скрипт 3' in message.content:
 		embed = discord.Embed(description = f'**Скрипт на игру __Blade Throwing Simulator__\n\n\n\n :point_down:Картинка GUI:point_down:**', color=0xbb1d)
 		
 		embed.set_image(url = 'https://cdn.discordapp.com/attachments/691953915196997689/700723653297438730/2020-04-17_17-05-10.png')
@@ -92,7 +92,7 @@ async def on_message(message):
 		await message.channel.send(file=discord.File(fp = 'C:/Users/User/Desktop/Windows/Bots/Splash Bot/Scripts/Bubble Gum Simulator.txt'))
 		return
 
-	if '<скрипт 2' in message.content:
+	if '.скрипт 2' in message.content:
 		embed = discord.Embed(description = f'**Скрипт на игру __Bubble Gum Simulator__\n\n Ключ: `Weeb`\n\n :point_down:Картинка GUI:point_down:**', color=0xbb1d)
 		
 		embed.set_image(url = 'https://cdn.discordapp.com/attachments/691953915196997689/700723726639038474/2020-04-17_16-58-09.png')
@@ -110,7 +110,7 @@ async def on_message(message):
 		await message.channel.send(file=discord.File(fp = 'C:/Users/User/Desktop/Windows/Bots/Splash Bot/Scripts/Boss Fighting Simulator.txt'))
 		return
 
-	if '<скрипт 4' in message.content:
+	if '.скрипт 4' in message.content:
 		embed = discord.Embed(description = f'**Скрипт на игру __Boss Fighting Simulator__\n\n\n\n :point_down:Картинка GUI:point_down:**', color=0xbb1d)
 		
 		embed.set_image(url = 'https://cdn.discordapp.com/attachments/691953915196997689/700723682070233118/2020-04-17_16-38-19.png')
@@ -128,7 +128,7 @@ async def on_message(message):
 		await message.channel.send(file=discord.File(fp = 'C:/Users/User/Desktop/Windows/Bots/Splash Bot/Scripts/EggHunt2020.txt'))
 		return
 
-	if '<скрипт 5' in message.content:
+	if '.скрипт 5' in message.content:
 		embed = discord.Embed(description = f'**Скрипт на __EggHunt 2020__\n\n\n\n :point_down:Картинка GUI:point_down:**', color=0xbb1d)
 		
 		embed.set_image(url = 'https://cdn.discordapp.com/attachments/691953915196997689/700724167590412388/2020-04-17_16-33-15.png')
@@ -146,7 +146,7 @@ async def on_message(message):
 		await message.channel.send(file=discord.File(fp = 'C:/Users/User/Desktop/Windows/Bots/Splash Bot/Scripts/Ghost Simulator.txt'))
 		return
 
-	if '<скрипт 6' in message.content:
+	if '.скрипт 6' in message.content:
 		embed = discord.Embed(description = f'**Скрипт на игру __Ghost Simulator__\n\n\n\n :point_down:Картинка GUI:point_down:**', color=0xbb1d)
 		
 		embed.set_image(url = 'https://cdn.discordapp.com/attachments/691953915196997689/700728205157597325/2020-04-17_16-36-54.png')
@@ -164,7 +164,7 @@ async def on_message(message):
 		await message.channel.send(file=discord.File(fp = 'C:/Users/User/Desktop/Windows/Bots/Splash Bot/Scripts/Hide and Seek Extreme.txt'))
 		return
 
-	if '<скрипт 7' in message.content:
+	if '.скрипт 7' in message.content:
 		embed = discord.Embed(description = f'**Скрипт на игру __Hide and Seek Extreme__\n\n\n\n :point_down:Картинка GUI:point_down:**', color=0xbb1d)
 		
 		embed.set_image(url = 'https://cdn.discordapp.com/attachments/691953915196997689/700728230239404142/2020-04-17_16-48-42.png')
@@ -182,7 +182,7 @@ async def on_message(message):
 		await message.channel.send(file=discord.File(fp = 'C:/Users/User/Desktop/Windows/Bots/Splash Bot/Scripts/Hole Simulator.txt'))
 		return
 
-	if '<скрипт 8' in message.content:
+	if '.скрипт 8' in message.content:
 		embed = discord.Embed(description = f'**Скрипт на игру __Hole Simulator__\n\n\n\n :point_down:Картинка GUI:point_down:**', color=0xbb1d)
 		
 		embed.set_image(url = 'https://cdn.discordapp.com/attachments/691953915196997689/700728329183166534/2020-04-17_16-18-50.png')
@@ -200,7 +200,7 @@ async def on_message(message):
 		await message.channel.send(file=discord.File(fp = 'C:/Users/User/Desktop/Windows/Bots/Splash Bot/Scripts/Mad Lads V7.txt'))
 		return
 
-	if '<скрипт 9' in message.content:
+	if '.скрипт 9' in message.content:
 		embed = discord.Embed(description = f'**Скрипт на игру __Mad City__\n\n\n\n :point_down:Картинка GUI:point_down:**', color=0xbb1d)
 		
 		embed.set_image(url = 'https://cdn.discordapp.com/attachments/691953915196997689/700728329363259472/2020-04-17_17-13-14.png')
@@ -218,7 +218,7 @@ async def on_message(message):
 		await message.channel.send(file=discord.File(fp = 'C:/Users/User/Desktop/Windows/Bots/Splash Bot/Scripts/Soda Simulator.txt'))
 		return
 
-	if '<скрипт 10' in message.content:
+	if '.скрипт 10' in message.content:
 		embed = discord.Embed(description = f'**Скрипт на игру __Soda Simulator__\n\n\n\n :point_down:Картинка GUI:point_down:**', color=0xbb1d)
 		
 		embed.set_image(url = 'https://cdn.discordapp.com/attachments/691953915196997689/700728334962917497/2020-04-17_16-26-47.png')
@@ -350,11 +350,11 @@ async def avatar(ctx, member : discord.Member = None):
 async def help(ctx):
 	emb = discord.Embed( title = 'Команды:', color=0x6fdb9e )
 
-	emb.add_field(name='Информационные:', value='`<user` - Узнать информацию о пользователе\n `<server` - Узнать информацию о сервере', inline = False)
-	emb.add_field(name='Скрипты:', value='`<скрипты` - Страницы\n `<скрипты 1` - Страница 1\n `<скрипты 2` - Страница 2\n `<скрипты 3` - Soon',inline = False)
-	emb.add_field(name='Чит:', value='`<download` - Скачать чит',inline = False)
-	emb.add_field(name='Разное:', value=' `<avatar` - Аватар пользоватлея\n `<time` - Узнать время',inline = False)
-	emb.add_field(name='Весёлости:', value='`<coin` - Бросить монетку\n `<math` - Решить пример\n `<8ball` - Волшебный шар\n `<ran_color` - Рандомный цвет в формате HEX',inline = False)
+	emb.add_field(name='Информационные:', value='`.user` - Узнать информацию о пользователе\n `.server` - Узнать информацию о сервере', inline = False)
+	emb.add_field(name='Скрипты:', value='`.скрипты` - Страницы\n `.скрипты 1` - Страница 1\n `.скрипты 2` - Страница 2\n `.скрипты 3` - Soon',inline = False)
+	emb.add_field(name='Чит:', value='`.download` - Скачать чит',inline = False)
+	emb.add_field(name='Разное:', value=' `.avatar` - Аватар пользоватлея\n `.time` - Узнать время',inline = False)
+	emb.add_field(name='Весёлости:', value='`.coin` - Бросить монетку\n `.math` - Решить пример\n `.8ball` - Волшебный шар\n `.ran_color` - Рандомный цвет в формате HEX',inline = False)
 	emb.set_thumbnail(url=ctx.guild.icon_url)
 	emb.set_footer(text='卄卂匚Ҝ乇尺 ㄒ卂#3588 © | Все права защищены', icon_url='https://cdn.discordapp.com/avatars/492354378083336194/e7ffb35260c29ea4fb9ec3beba9c5e55.png?size=512')
 
