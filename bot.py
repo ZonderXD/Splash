@@ -427,4 +427,5 @@ async def coin( ctx ):
             Тебе не повезло у тебя: ``{ coins_r }``''', color = 0x0c0c0c))
 
 # Token Bot XD
-bot.run("Token")
+token = os.environ.get("Token")
+client.run(str(token))
