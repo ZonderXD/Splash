@@ -428,4 +428,4 @@ async def coin( ctx ):
 
 # Token Bot XD
 token = os.environ.get("Token")
-client.run(str(token))
+bot.run(str(token))
